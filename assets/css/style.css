@@ -576,13 +576,17 @@ main
 
     .track {
         display: flex;
-        justify-content: center;
-        gap: 0 10px;
+        justify-content: space-between;
+        width: 77%;
+        margin: 0 auto;
     }
 
     .track__item {
         padding-right: 0;
-        width: fit-content;
+    }
+
+    .track__item img {
+        width: 14.791vw;
     }
 
     .slides {
